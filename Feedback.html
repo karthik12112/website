@@ -73,7 +73,7 @@
       event.preventDefault(); //prevent default action
       var form_data = $(this).serialize(); //Encode form elements for submission
 
-      $.post( https://kl1aezi9t3.execute-api.us-west-2.amazonaws.com/develop/new-user, form_data, function( response ) {
+      $.post( 'https://kl1aezi9t3.execute-api.us-west-2.amazonaws.com/develop/new-user', form_data, function( response ) {
       $("#server-results").html( response );
         });
       });

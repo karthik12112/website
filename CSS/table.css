@@ -1,0 +1,29 @@
+/*Education*/
+.table{
+ margin:30px 0 0 30px;
+ width: 85%;
+ font-size: 18px;
+}
+table tr:nth-child(even) {
+    background-color: #999;
+    color: white;
+}
+table tr:nth-child(even):hover{
+    background-color: white;
+    color: black;  
+}
+table th{
+    background: lavender;
+    color: navy;
+}
+table td{
+    width: 20%;
+}
+table td, table th {
+    text-align: left;
+    padding: 5px;
+}
+.head{
+    padding:15px;
+    color: navy;
+}

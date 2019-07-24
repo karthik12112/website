@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <link rel="stylesheet" href="CSS/Bootstrap.css" />
+    <link rel="stylesheet" href="./CSS/table.css" />
+    <title>Resume | Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Resume</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="./Home.html">Introduction</a></li>
+                <li><a href="./ProfInfo.html">Professional Summary</a></li>
+                <li><a href="./Experience.html">Experience </a></li>
+                <li class="active"><a href="./Education.html">Technical knowledge </a></li>
+                <li><a href="./Feedback.html">Feedback Form </a></li>
+
+            </ul>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <aside>
+        <table class="table table-hover">
+            <h3 class="head">Technical Expertise</h3>
+            <tbody>
+                <tr>
+                    <td>Integration Tools</td>
+                    <td>Dell Boomi (IPASS)</td>
+                </tr>
+                <tr>
+                    <td>Connectors</td>
+                    <td>FTP, Mail, Disk, Database(MSSQL, MySQL), HTTP, SalesForce, Netsuite, Web Services, Success
+                        factor, Amazon S3 bucket, vTiger CRM.</td>
+                </tr>
+                <tr>
+                    <td>Wed Technologies</td>
+                    <td>JavaScript, XML, Groovy Script</td>
+                </tr>
+                <tr>
+                    <td>WedServices</td>
+                    <td>JSON, REST</td>
+                </tr>
+                <tr>
+                    <td>Profile Formats</td>
+                    <td>XML, Database, FlatFile, JSON</td>
+                </tr>
+                <tr>
+                    <td>Other Skills</td>
+                    <td>MYSQL, SalesForce, Netsuite, JavaScript</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table class="table table-hover">
+                <h3 class="head">Educational Information</h3>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Institute Name</th>
+                    <th>Grades</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Masters</td>
+                    <td>Wilmington University, Delaware, US</td>
+                    <td>Pursuing</td>
+                </tr>
+                <tr>
+                    <td>Bachelors</td>
+                    <td>JNTUH, Hyderabad</td>
+                    <td>82 %</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>Board of Intermediate, Karimnagar</td>
+                    <td>92.5 %</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>SSC Karimnagar</td>
+                    <td>86 %</td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+    <bottom>
+        <ul class="pager">
+            <li class="previous"><a href="./Experience.html">Previous</a></li>
+            <li class="next"><a href="./Feedback.html">Next</a></li>
+        </ul>
+    </bottom>
+</body>

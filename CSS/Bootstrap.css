@@ -1,0 +1,26 @@
+
+.thumbnail{
+    width:80%;
+    margin-left: 450px;
+}
+.caption {
+    text-align: center;
+    margin:0;
+    padding: 15px;
+}
+.mailto{
+    display:block;
+    width:300px;
+    height:20px;
+    padding-left: 25px;
+    text-align: center;
+  }
+  .navbar{
+    margin-bottom: 0; 
+  }
+
+/* Experience Tab Accordion Body */
+  .panel-body{
+    line-height: 28px;
+  }
+  
